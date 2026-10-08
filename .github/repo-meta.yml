@@ -1,0 +1,23 @@
+# .github/repo-meta.yml — von der github-repo Skill gepflegt
+repo_name: papercraft-ki
+title: Papercraft-KI
+description: Educational papercraft workflow with FOSS tools and local AI, mapped to the Swiss Lehrplan 21
+topics: [papercraft, education, lehrplan-21, blender, inkscape, open-source, image-to-3d, maker-education]
+project_type: other
+visibility: public
+license: MIT
+author_legal_name: Hayal Özkan
+author_label: Autor
+github_user: malkreide
+default_branch: main
+language: markdown
+version: 0.1.0
+confirmed: true
+notes:
+  - README.md ist bewusst die deutsche Hauptdatei (Zielgruppe Lehrplan 21, deutschsprachig);
+    README.en.md ist die englische Kurzfassung. Abweichung vom Skill-Standard (README.md EN / README.de.md DE),
+    dokumentiert und gewollt — nicht angleichen.
+  - Reines Dokumentations-Repo ohne Code: keine CI, kein ruff, kein publish.yml.
+offen:
+  - topics setzen (kein gh-Token in dieser Session) — Settings-UI oder spaeter mit gh
+  - Secret Scanning + Push Protection aktivieren (Settings → Code security)
