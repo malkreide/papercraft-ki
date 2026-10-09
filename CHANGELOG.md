@@ -14,6 +14,9 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - `scripts/make_wuerfel_final.py`: Zahlen 1–6 (Gegenseiten ergeben 7), Legende und A4-Layout für den Würfel
 - `templates/inkscape/legende-zyklus1.svg`: Legende mit Icons für Zyklus 1
 
+### Changed
+- `docs/PAEDAGOGIK.md`: Linienstil der Faltlinien an README und WORKFLOW angeglichen (Bergfalte gestrichelt 5/3 statt Strich-Punkt, Talfalte gestrichelt 3/3)
+
 ### Geplant
 - Projekt A (Würfel) real bauen: Zeitaufwand und Foto in `examples/01-wuerfel-einstieg/README.md`
 - Weitere Inkscape-Vorlagen (Legende Zyklus 2, Symbole) in `templates/inkscape/`
