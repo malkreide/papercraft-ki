@@ -18,6 +18,7 @@ notes:
     README.en.md ist die englische Kurzfassung. Abweichung vom Skill-Standard (README.md EN / README.de.md DE),
     dokumentiert und gewollt — nicht angleichen.
   - Reines Dokumentations-Repo ohne Code: keine CI, kein ruff, kein publish.yml.
-offen:
-  - topics setzen (kein gh-Token in dieser Session) — Settings-UI oder spaeter mit gh
-  - Secret Scanning + Push Protection aktivieren (Settings → Code security)
+offen: []
+erledigt:
+  - 2026-10-09 topics ueber Settings-UI gesetzt
+  - 2026-10-09 Secret Scanning + Push Protection ueber Settings-UI aktiviert
