@@ -10,7 +10,7 @@
 
 🇬🇧 [English summary](README.en.md)
 
-> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet; die Ordner `examples/` und `templates/` sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
+> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape), aber noch nicht mit Kindern gebaut; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
 
 ---
 
@@ -322,6 +322,8 @@ Nodes in ComfyUI verbinden:
 ```
 
 > ⚠️ Vorher: Alle Kurven linearisieren (Path → Object to Path)
+
+> Ohne Tabgen oder headless: [`scripts/add_tabs.py`](scripts/add_tabs.py) ersetzt die Paper-Model-Laschen durch Trapezlaschen und setzt dabei nur eine Lasche pro Klebepaar.
 
 #### Layout
 
