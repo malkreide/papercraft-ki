@@ -5,7 +5,8 @@ Schritte:
 2. Netz achsparallel drehen und die sechs Würfelflächen im Raster erkennen.
 3. Zahlen 1–6 so verteilen, dass gegenüberliegende Seiten zusammen 7 ergeben wie bei
    einem echten Spielwürfel (das Netz wird dazu virtuell «abgerollt»). Die 6 wird
-   unterstrichen, damit sie gedreht nicht als 9 gelesen wird.
+   unterstrichen, damit sie gedreht nicht als 9 gelesen wird. Mit ``--motiv augen``
+   stehen statt Ziffern Würfelaugen (Mengenbild) auf den Flächen.
 4. Legende aus ``templates/inkscape/legende-zyklus1.svg`` unten rechts einsetzen;
    Zeilen ohne Entsprechung auf dem Bogen (z. B. Talfalte) werden weggelassen.
 5. Alles auf A4 hochkant mit 10 mm Rand platzieren, ohne dass Netz und Legende sich berühren.
@@ -17,6 +18,7 @@ Das Ergebnis ist ein editierbares Inkscape-SVG mit Ebenen. PDF und PNG danach mi
 Aufruf (PowerShell, eine Zeile):
 
     python scripts/make_wuerfel_final.py examples/01-wuerfel-einstieg/wuerfel-unfolded.svg examples/01-wuerfel-einstieg/wuerfel-final.svg
+    python scripts/make_wuerfel_final.py examples/01-wuerfel-einstieg/wuerfel-unfolded.svg examples/01-wuerfel-einstieg/wuerfel-augen-final.svg --motiv augen
 
 Nur Python-Standardbibliothek, Python 3.10+.
 """
@@ -120,6 +122,26 @@ def number_svg(face: list[Point], n: int, size: float) -> str:
     return out
 
 
+# Augenpositionen im 3x3-Raster (-1, 0, 1), wie auf einem Spielwürfel
+PIPS = {
+    1: [(0, 0)],
+    2: [(-1, -1), (1, 1)],
+    3: [(-1, -1), (0, 0), (1, 1)],
+    4: [(-1, -1), (1, -1), (-1, 1), (1, 1)],
+    5: [(-1, -1), (1, -1), (0, 0), (-1, 1), (1, 1)],
+    6: [(-1, -1), (-1, 0), (-1, 1), (1, -1), (1, 0), (1, 1)],
+}
+
+
+def pips_svg(face: list[Point], n: int, size: float) -> str:
+    """Würfelaugen: Durchmesser 18 % der Kante (bei 55 mm ≈ 10 mm), Raster 27 % der Kante."""
+    cx = sum(x for x, _ in face) / 4
+    cy = sum(y for _, y in face) / 4
+    step, r = 0.27 * size, 0.09 * size
+    return "\n  ".join(f'<circle cx="{fmt(cx + i * step)}" cy="{fmt(cy + j * step)}" r="{fmt(r)}" '
+                       f'fill="{NUMBER_COLOR}"/>' for i, j in PIPS[n])
+
+
 # ---------------------------------------------------------------------------
 # Legende
 # ---------------------------------------------------------------------------
@@ -175,6 +197,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--tab-height", type=float, default=15.0, help="Laschenhöhe in mm (Standard 15)")
     p.add_argument("--cut-width", type=float, default=0.8, help="Schnittlinie in mm (Standard 0,8)")
     p.add_argument("--margin", type=float, default=10.0, help="Seitenrand in mm (Standard 10)")
+    p.add_argument("--motiv", choices=("ziffern", "augen"), default="ziffern",
+                   help="Ziffern 1–6 (Standard) oder Würfelaugen")
     args = p.parse_args(argv)
 
     page_w, page_h, m = 210.0, 297.0, args.margin
@@ -206,8 +230,12 @@ def main(argv: list[str] | None = None) -> int:
     fills = [(faces[f], FACE_COLORS[numbers[f]]) for f in sorted(faces)]
 
     layers = add_tabs.render_layers(tn, cut_width=args.cut_width, face_fills=fills)
-    layers.append(add_tabs.layer("Zahlen", "zahlen",
-                                 [number_svg(faces[f], numbers[f], size) for f in sorted(faces)]))
+    if args.motiv == "augen":
+        layers.append(add_tabs.layer("Augen", "augen",
+                                     [pips_svg(faces[f], numbers[f], size) for f in sorted(faces)]))
+    else:
+        layers.append(add_tabs.layer("Zahlen", "zahlen",
+                                     [number_svg(faces[f], numbers[f], size) for f in sorted(faces)]))
     legend.set("transform", f"translate({fmt(lx)},{fmt(ly)})")
     layers.append(add_tabs.layer("Legende", "legende", [element_svg(legend)]))
     # Fusszeile für Erwachsene, links neben der Legende (max. Breite lx - m - 5 mm)

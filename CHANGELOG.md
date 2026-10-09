@@ -13,6 +13,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - `scripts/add_tabs.py`: Trapezlaschen (Standard 15 mm, 45°) und Linienkodierung nach README «Schritt 4», Ersatz für Tabgen mit Überlappungsprüfung
 - `scripts/make_wuerfel_final.py`: Zahlen 1–6 (Gegenseiten ergeben 7), Legende und A4-Layout für den Würfel
 - `templates/inkscape/legende-zyklus1.svg`: Legende mit Icons für Zyklus 1
+- Würfel-Variante mit Würfelaugen statt Ziffern (`wuerfel-augen-final.*`, `scripts/make_wuerfel_final.py --motiv augen`)
 
 ### Changed
 - Würfel-Beispiel auf 55 mm Kantenlänge vergrössert (vorher 50 mm); Mindestabstand Netz–Legende in `scripts/make_wuerfel_final.py` von 5 auf 4 mm, damit beides auf A4 passt
