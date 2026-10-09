@@ -25,13 +25,13 @@
 
 | Parameter | Wert | Quelle |
 |---|---|---|
-| Kantenlänge | 50 mm (Paper Model `--scale 20`) | PAEDAGOGIK: mindestens 5 cm |
+| Kantenlänge | 55 mm (Paper Model `--scale 18.181818` = 1000/55); grösster Wert, bei dem Netz und Legende mit 10 mm Rand auf A4 passen | PAEDAGOGIK: mindestens 5 cm |
 | Netzform | Kreuz (3 × 4 Flächen), von Paper Model gewählt | – |
 | Papierformat | A4 hochkant, 10 mm Rand | README «Schritt 4» |
 | Schnittlinien | Schwarz, 0,8 mm, durchgezogen | README «Schritt 4» |
 | Faltlinien | Rot gestrichelt (5/3, je Linie gestreckt), 0,5 mm – alle 5 Flächenfalten und 7 Laschenfalten sind Bergfalten | WORKFLOW «Linienstile» |
 | Klebelaschen | 7 Stück, 15 mm hoch, Trapez 45°, grau mit Klebetropfen | PAEDAGOGIK «5–6 Jahre» |
-| Flächen | Zahlen 1–6, Schrift Andika Bold (≈ 26 mm Ziffernhöhe), helle Flächenfarben; Gegenseiten ergeben 7 wie beim Spielwürfel; die 6 ist unterstrichen | – |
+| Flächen | Zahlen 1–6, Schrift Andika Bold (≈ 28 mm Ziffernhöhe), helle Flächenfarben; Gegenseiten ergeben 7 wie beim Spielwürfel; die 6 ist unterstrichen | – |
 | Legende | `templates/inkscape/legende-zyklus1.svg`, ohne Talfalte (kommt nicht vor) | – |
 
 Die Laschen sitzen nur an einer Kante je Klebepaar (7 statt 14). Welche Kante, entscheidet Paper Model aus dem 3D-Modell; `scripts/add_tabs.py` vergrössert diese Laschen auf 15 mm und prüft, dass sich keine überlappen.
@@ -41,7 +41,7 @@ Die Laschen sitzen nur an einer Kante je Klebepaar (7 statt 14). Welche Kante, e
 PowerShell, jeweils eine Zeile, aus dem Repo-Stammverzeichnis:
 
 ```powershell
-blender --background --python scripts/unfold_obj.py -- examples/01-wuerfel-einstieg/wuerfel.obj examples/01-wuerfel-einstieg/wuerfel-unfolded.svg --scale 20
+blender --background --python scripts/unfold_obj.py -- examples/01-wuerfel-einstieg/wuerfel.obj examples/01-wuerfel-einstieg/wuerfel-unfolded.svg --scale 18.181818
 python scripts/make_wuerfel_final.py examples/01-wuerfel-einstieg/wuerfel-unfolded.svg examples/01-wuerfel-einstieg/wuerfel-final.svg
 inkscape examples/01-wuerfel-einstieg/wuerfel-final.svg --export-type=pdf --export-text-to-path --export-filename=examples/01-wuerfel-einstieg/wuerfel-final.pdf
 inkscape examples/01-wuerfel-einstieg/wuerfel-final.svg --export-type=png --export-dpi=150 --export-background=white --export-filename=examples/01-wuerfel-einstieg/wuerfel-final-preview.png
@@ -57,5 +57,5 @@ Zum Bearbeiten des SVG in Inkscape sollte die Schrift [Andika](https://software.
 ## Offene Punkte
 
 - Realer Bau mit Kindern: Zeitaufwand, Schwierigkeiten, Foto (ohne erkennbare Gesichter)
-- Prüfen, ob 15-mm-Laschen beim 50-mm-Würfel innen anstossen (Laschen benachbarter Kanten treffen sich im Würfelinneren)
+- Prüfen, ob 15-mm-Laschen beim 55-mm-Würfel innen anstossen (Laschen benachbarter Kanten treffen sich im Würfelinneren)
 - Variante mit Würfelaugen statt Ziffern (Mengenbild) für Kinder, die Ziffern noch nicht sicher lesen

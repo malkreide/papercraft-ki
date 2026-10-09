@@ -15,6 +15,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - `templates/inkscape/legende-zyklus1.svg`: Legende mit Icons für Zyklus 1
 
 ### Changed
+- Würfel-Beispiel auf 55 mm Kantenlänge vergrössert (vorher 50 mm); Mindestabstand Netz–Legende in `scripts/make_wuerfel_final.py` von 5 auf 4 mm, damit beides auf A4 passt
 - `docs/PAEDAGOGIK.md`: Linienstil der Faltlinien an README und WORKFLOW angeglichen (Bergfalte gestrichelt 5/3 statt Strich-Punkt, Talfalte gestrichelt 3/3)
 
 ### Geplant

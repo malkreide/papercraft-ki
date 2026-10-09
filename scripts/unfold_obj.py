@@ -11,9 +11,10 @@ Kante eines Kantenpaares die Lasche bekommt – diese Information braucht
 
 Aufruf (PowerShell, eine Zeile):
 
-    blender --background --python scripts/unfold_obj.py -- examples/01-wuerfel-einstieg/wuerfel.obj examples/01-wuerfel-einstieg/wuerfel-unfolded.svg --scale 20
+    blender --background --python scripts/unfold_obj.py -- examples/01-wuerfel-einstieg/wuerfel.obj examples/01-wuerfel-einstieg/wuerfel-unfolded.svg --scale 18.181818
 
-``--scale`` ist der Divisor wie im Add-on: 1 Blender-Einheit (1 m) / 20 = 50 mm auf Papier.
+``--scale`` ist der Divisor wie im Add-on: 1 Blender-Einheit (1 m) / 20 = 50 mm auf Papier,
+1 m / 18.181818 = 55 mm (Würfel-Beispiel).
 """
 
 import argparse
