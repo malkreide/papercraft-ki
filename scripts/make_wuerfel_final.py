@@ -188,13 +188,14 @@ def main(argv: list[str] | None = None) -> int:
     lx, ly = page_w - m - lw - stroke, page_h - m - lh - stroke
     legend_rect = (lx, ly, lx + lw, ly + lh)
 
-    # Netz horizontal zentrieren, vertikal möglichst mittig, aber ohne Legende zu berühren
+    # Netz horizontal zentrieren, vertikal möglichst mittig, mit mindestens 4 mm Abstand zur Legende
+    # (beim 55-mm-Würfel bleiben unter dem Netz nur 4,7 mm bis zur Legende)
     x0, y0, x1, y1 = tn.bbox()
     if x1 - x0 > page_w - 2 * m or y1 - y0 > page_h - 2 * m:
         sys.exit(f"Netz {fmt(x1 - x0)} x {fmt(y1 - y0)} mm passt nicht auf A4 mit {fmt(m)} mm Rand")
     dx = m + (page_w - 2 * m - (x1 - x0)) / 2 - x0
     dy = m + (page_h - 2 * m - (y1 - y0)) / 2 - y0
-    while rect_hits_shape(legend_rect, tn.transform(lambda q: (q[0] + dx, q[1] + dy)), gap=5.0):
+    while rect_hits_shape(legend_rect, tn.transform(lambda q: (q[0] + dx, q[1] + dy)), gap=4.0):
         dy -= 0.5
         if y0 + dy < m:
             sys.exit("Netz und Legende passen nicht gemeinsam auf die Seite")
