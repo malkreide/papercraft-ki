@@ -12,7 +12,8 @@ examples/
 │   ├── wuerfel-unfolded.svg   # Entfalteter Bastelbogen
 │   ├── wuerfel-final.svg      # Fertiger Bogen mit Laschen und Legende
 │   ├── wuerfel-final.pdf      # Druckfertiges PDF
-│   └── wuerfel-final-preview.png  # Vorschau 150 dpi
+│   ├── wuerfel-final-preview.png  # Vorschau 150 dpi
+│   └── wuerfel-augen-final.*  # Variante mit Würfelaugen (SVG, PDF, Vorschau)
 │
 ├── 02-lkw-mittel/             ⭐⭐ ab 7 Jahre (Roadmap)
 │   ├── README.md
