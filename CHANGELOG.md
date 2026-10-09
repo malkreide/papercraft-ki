@@ -16,6 +16,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - Würfel-Variante mit Würfelaugen statt Ziffern (`wuerfel-augen-final.*`, `scripts/make_wuerfel_final.py --motiv augen`)
 
 ### Changed
+- `scripts/README.md`: Windows-Pfade nachgetragen (Blender 5.2, Python 3.13.8); Inkscape auf dem Windows-Rechner noch nicht gefunden
 - Würfel-Beispiel auf 55 mm Kantenlänge vergrössert (vorher 50 mm); Mindestabstand Netz–Legende in `scripts/make_wuerfel_final.py` von 5 auf 4 mm, damit beides auf A4 passt
 - `docs/PAEDAGOGIK.md`: Linienstil der Faltlinien an README und WORKFLOW angeglichen (Bergfalte gestrichelt 5/3 statt Strich-Punkt, Talfalte gestrichelt 3/3)
 
