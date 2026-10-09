@@ -54,7 +54,7 @@ Die Unterscheidung von Bergfalten (nach aussen) und Talfalten (nach innen) erfor
 | Kanal | Bergfalte | Talfalte | Begründung |
 |---|---|---|---|
 | **Farbe** | Rot | Blau | Intuitive Zuordnung: Rot = oben/warm, Blau = unten/kalt |
-| **Linienstil** | Strich-Punkt | Strich-Strich | Auch bei Schwarzweiss-Druck unterscheidbar |
+| **Linienstil** | Gestrichelt, lange Striche (5/3 mm) | Gestrichelt, kurze Striche (3/3 mm) | Wie in [WORKFLOW.md](WORKFLOW.md#linienstile-konfigurieren); die Strichlänge hilft im Schwarzweiss-Druck, der Unterschied ist aber fein – deshalb zusätzlich das Symbol |
 | **Symbol** | 🔺 Dreieck (oben) | 🔻 Dreieck (unten) | Visueller Anker für Kinder, die noch nicht lesen |
 
 ### Feedback-Schleifen
