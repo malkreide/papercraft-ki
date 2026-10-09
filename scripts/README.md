@@ -16,16 +16,34 @@ README und WORKFLOW empfehlen in Paper Model «No Tabs» und Laschen später mit
 
 ## Programmpfade
 
-`.exe`-Pfade auf dem Windows-Entwicklungsrechner beim ersten Lauf ermitteln (`Get-Command blender`, `Get-Command inkscape`) und hier eintragen.
+Ermittelt auf dem Windows-Entwicklungsrechner am 9. Oktober 2026 mit `Get-Command` und einer Suche in `C:\Program Files`.
 
-| Programm | Windows | Linux (Testlauf 9. Oktober 2026) |
+| Programm | Windows (9. Oktober 2026) | Linux (Testlauf 9. Oktober 2026) |
 |---|---|---|
-| Blender | noch nicht ermittelt | `/usr/bin/blender` (4.0.2, Ubuntu-Paket, Paper Model 1.2 enthalten) |
-| Inkscape | noch nicht ermittelt | `/usr/bin/inkscape` (1.2.2, Ubuntu-Paket) |
-| Python | noch nicht ermittelt | `/usr/bin/python3` (3.13) |
+| Blender | `C:\Program Files\Blender Foundation\Blender 5.2\blender.exe` (5.2, **nicht im `PATH`**) | `/usr/bin/blender` (4.0.2, Ubuntu-Paket, Paper Model 1.2 enthalten) |
+| Inkscape | nicht gefunden – weder im `PATH` noch unter `C:\Program Files\Inkscape\bin` | `/usr/bin/inkscape` (1.2.2, Ubuntu-Paket) |
+| Python | `C:\Python313\python.exe` (3.13.8, im `PATH`) | `/usr/bin/python3` (3.13) |
+
+Weil Blender nicht im `PATH` liegt, in PowerShell mit vollem Pfad und Aufrufoperator `&` starten:
+
+```powershell
+& "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" --background --python scripts/unfold_obj.py -- examples/01-wuerfel-einstieg/wuerfel.obj examples/01-wuerfel-einstieg/wuerfel-unfolded.svg --scale 18.181818
+```
+
+Für Inkscape unter Windows `inkscape.com` statt `inkscape.exe` verwenden: Nur dann erscheinen Meldungen und Fehler in der Konsole. Pfad nach der Installation hier nachtragen.
+
+Offen auf Windows (nicht getestet):
+
+- **Inkscape** installieren oder den Installationsort ermitteln (z. B. Microsoft Store, Winget, eigener Ordner).
+- **Paper Model unter Blender 5.2:** Seit Blender 4.2 ist Paper Model kein mitgeliefertes Add-on mehr, sondern eine Extension, die separat installiert werden muss. Den Modulnamen für `--addon` nach der Installation so ermitteln:
+
+  ```powershell
+  & "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe" --background --python-expr "import addon_utils; print([m.__name__ for m in addon_utils.modules() if 'paper' in m.__name__.lower()])"
+  ```
+
+- **`unfold_obj.py` unter Blender 5.2:** Nur mit Blender 4.0.2 getestet. Ob `wm.obj_import` und der Paper-Model-Operator in 5.2 gleich heissen, ist ungeprüft.
 
 Hinweise aus dem Testlauf:
 
 - Paper Model braucht headless `scene.paper_model.use_auto_scale = False`, sonst bricht der Export mit «An island is too big» ab (das Skript setzt das).
-- Ab Blender 4.2 ist Paper Model eine Extension; Modulname gegebenenfalls mit `--addon` übergeben (nicht getestet).
 - Die Ziffern nutzen die Schrift Andika (SIL, OFL). Fürs PDF `--export-text-to-path` verwenden, dann ist die Schrift beim Drucken nicht nötig.
