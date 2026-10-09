@@ -8,12 +8,13 @@ Fertige Beispielprojekte nach Schwierigkeitsgrad, inklusive aller Zwischendateie
 examples/
 ├── 01-wuerfel-einstieg/       ⭐ ab 5 Jahre
 │   ├── README.md              # Projektbeschreibung
-│   ├── wuerfel.obj            # 3D-Modell (Blockbench)
+│   ├── wuerfel.obj            # 3D-Modell (Blockbench-Äquivalent)
 │   ├── wuerfel-unfolded.svg   # Entfalteter Bastelbogen
 │   ├── wuerfel-final.svg      # Fertiger Bogen mit Laschen und Legende
-│   └── wuerfel-final.pdf      # Druckfertiges PDF
+│   ├── wuerfel-final.pdf      # Druckfertiges PDF
+│   └── wuerfel-final-preview.png  # Vorschau 150 dpi
 │
-├── 02-lkw-mittel/             ⭐⭐ ab 7 Jahre
+├── 02-lkw-mittel/             ⭐⭐ ab 7 Jahre (Roadmap)
 │   ├── README.md
 │   ├── lkw-input.png          # Eingabebild für das KI-Modell
 │   ├── lkw-raw.obj            # KI-generiertes Rohmodell
