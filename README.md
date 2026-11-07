@@ -10,7 +10,7 @@
 
 🇬🇧 [English summary](README.en.md)
 
-> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape) und in beiden Varianten einmal mit Kindern gebaut; Bastelzeit, Laschengrösse und Papier sind dabei noch nicht gemessen worden und bleiben Heuristiken; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
+> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape) und in beiden Varianten einmal mit Kindern (6 und 8 Jahre) gebaut: ca. 30 Min. auf 160 g/m²; die Laschengrösse für 5–6-Jährige ist noch nicht belegt; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
 
 ---
 
@@ -351,7 +351,7 @@ Optional:   Schneideplotter via Inkcut (Teile vorperforieren)
 
 ### Projekt A: «Der erste Würfel» (ab 5 Jahre)
 
-**Dauer:** 30 Min. digital + 20 Min. basteln | **Kein KI nötig**
+**Dauer:** 30 Min. digital + ca. 30 Min. basteln ([Durchlauf 1](examples/01-wuerfel-einstieg/README.md#durchlauf-1), Kinder 6 und 8 Jahre) | **Kein KI nötig**
 
 1. Blockbench: «Generic Model» erstellen (ein Würfel)
 2. Seiten bemalen: Zahlen 1–6 oder Tierbilder (Pixel-Art)

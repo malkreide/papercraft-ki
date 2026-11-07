@@ -47,7 +47,7 @@ The no-AI path (Blockbench → Blender → Inkscape) runs on any laptop and is t
 
 ## Status
 
-**v0.1 – documentation.** The workflow is described but not yet tested end to end. The first example, the [cube sheet](examples/01-wuerfel-einstieg/), has been built once with children in both variants; build time, tab size and paper weight were not measured yet. The other examples and templates are placeholders. First-hand reports and example projects are welcome.
+**v0.1 – documentation.** The workflow is described but not yet tested end to end. The first example, the [cube sheet](examples/01-wuerfel-einstieg/), has been built once with children aged 6 and 8 in both variants: about 30 minutes on 160 g/m² paper; tab size for 5–6-year-olds is not yet confirmed. The other examples and templates are placeholders. First-hand reports and example projects are welcome.
 
 ## Project structure
 
