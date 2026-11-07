@@ -1,6 +1,6 @@
 # Projekt A: «Der erste Würfel» (ab 5 Jahren)
 
-> **Stand 9. Oktober 2026: digital erzeugt, noch nicht gebaut.** Die Dateien sind headless mit Blender, Paper Model und Inkscape entstanden. Ein Bau mit Kindern steht aus – Zeitaufwand und Foto folgen danach (Roadmap).
+> **Stand 7. November 2026: digital erzeugt und einmal mit Kindern gebaut.** Die Dateien sind headless mit Blender, Paper Model und Inkscape entstanden. Beide Varianten wurden in [Durchlauf 1](#durchlauf-1) gebaut; Messwerte (Bastelzeit, Papier, Alter) sind noch nicht erfasst, das Foto folgt (Roadmap).
 
 <p align="center">
   <img src="wuerfel-final-preview.png" alt="Vorschau des Würfel-Bastelbogens: Kreuznetz mit sechs farbigen Flächen 1 bis 6, grauen Klebelaschen mit Tropfen und Legende unten rechts" width="380">
@@ -58,10 +58,29 @@ Zum Bearbeiten des SVG in Inkscape sollte die Schrift [Andika](https://software.
 ## Drucken und Bauen
 
 - Papier 160–200 g/m², **in Originalgrösse (100 %)** drucken, nicht «an Seite anpassen»
-- Ablauf (ungetestet): ausschneiden, Erwachsene helfen an den Laschenecken → alle roten Linien nach hinten falten → Laschen mit Klebestift einstreichen → zusammenkleben
+- Ablauf (Vorschlag; in Durchlauf 1 nicht Schritt für Schritt protokolliert): ausschneiden, Erwachsene helfen an den Laschenecken → alle roten Linien nach hinten falten → Laschen mit Klebestift einstreichen → zusammenkleben
+
+## Durchlauf 1
+
+Erster realer Bau, vor dem 7. November 2026, mit Kindern. Beide Varianten (Ziffern und Würfelaugen) wurden gebaut; beide Würfel liessen sich fertigstellen. Rückmeldung: «Hat super funktioniert.»
+
+| Angabe | Wert |
+|---|---|
+| Varianten | Ziffern und Würfelaugen, je ein Würfel |
+| Ergebnis | beide fertig gebaut |
+| Druckdatei und Skalierung | nicht erfasst |
+| Papier | nicht erfasst |
+| Kantenlänge am Papier | nicht erfasst (Sollwert 55 mm) |
+| Bastelzeit | nicht erfasst |
+| Alter der Kinder, Hilfe durch Erwachsene | nicht erfasst |
+| Laschen (Grösse, Anstossen im Inneren) | nicht erfasst |
+| Klebstoff | nicht erfasst |
+| Ziffern oder Augen besser | nicht erfasst |
+
+Belegt ist damit nur: Der Bogen lässt sich in beiden Varianten von Kindern (mit unbekannter Hilfe) zu einem Würfel bauen. Bastelzeit (20 Min.), Laschengrösse (15 mm für 5–6 Jahre) und Papier (160 g/m²) im Haupt-README bleiben Heuristiken, bis die Werte oben ergänzt sind.
 
 ## Offene Punkte
 
-- Realer Bau mit Kindern: Zeitaufwand, Schwierigkeiten, Foto (ohne erkennbare Gesichter)
+- Durchlauf 1 vervollständigen oder Durchlauf 2 protokollieren: Bastelzeit, Papier, Kantenlänge, Alter, Laschen, Foto (ohne erkennbare Gesichter)
 - Prüfen, ob 15-mm-Laschen beim 55-mm-Würfel innen anstossen (Laschen benachbarter Kanten treffen sich im Würfelinneren)
 - Mit Kindern erproben, welche Variante besser funktioniert: Ziffern oder Würfelaugen (Mengenbild, auf einen Blick erfassbar)

@@ -16,12 +16,13 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - Würfel-Variante mit Würfelaugen statt Ziffern (`wuerfel-augen-final.*`, `scripts/make_wuerfel_final.py --motiv augen`)
 
 ### Changed
+- Würfel-Beispiel erstmals mit Kindern gebaut (beide Varianten): «Durchlauf 1» in `examples/01-wuerfel-einstieg/README.md`, Status in `README.md` und `README.en.md` nachgeführt; Messwerte noch nicht erfasst, Heuristiken unverändert
 - `scripts/README.md`: Windows-Pfade nachgetragen (Blender 5.2, Python 3.13.8); Inkscape auf dem Windows-Rechner noch nicht gefunden
 - Würfel-Beispiel auf 55 mm Kantenlänge vergrössert (vorher 50 mm); Mindestabstand Netz–Legende in `scripts/make_wuerfel_final.py` von 5 auf 4 mm, damit beides auf A4 passt
 - `docs/PAEDAGOGIK.md`: Linienstil der Faltlinien an README und WORKFLOW angeglichen (Bergfalte gestrichelt 5/3 statt Strich-Punkt, Talfalte gestrichelt 3/3)
 
 ### Geplant
-- Projekt A (Würfel) real bauen: Zeitaufwand und Foto in `examples/01-wuerfel-einstieg/README.md`
+- Projekt A (Würfel): Durchlauf 1 vervollständigen (Bastelzeit, Papier, Kantenlänge, Alter, Laschen) und Foto in `examples/01-wuerfel-einstieg/README.md`
 - Weitere Inkscape-Vorlagen (Legende Zyklus 2, Symbole) in `templates/inkscape/`
 - Beurteilungsraster für Lehrpersonen (Zyklus 1 und 2)
 - MI-Kompetenzstufen gegen das offizielle Poster prüfen

@@ -10,7 +10,7 @@
 
 🇬🇧 [English summary](README.en.md)
 
-> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape), aber noch nicht mit Kindern gebaut; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
+> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape) und in beiden Varianten einmal mit Kindern gebaut; Bastelzeit, Laschengrösse und Papier sind dabei noch nicht gemessen worden und bleiben Heuristiken; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
 
 ---
 
