@@ -10,7 +10,7 @@
 
 🇬🇧 [English summary](README.en.md)
 
-> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape) und in beiden Varianten einmal mit Kindern (6 und 8 Jahre) gebaut: ca. 30 Min. auf 160 g/m²; die Laschengrösse für 5–6-Jährige ist noch nicht belegt; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
+> **Status: v0.1 – Dokumentation.** Der Workflow ist beschrieben, aber noch nicht durchgehend getestet. Erstes Beispiel: der [Würfel-Bogen](examples/01-wuerfel-einstieg/) ist headless erzeugt (Blender → Paper Model → Skript → Inkscape) und in beiden Varianten einmal mit Kindern (6 und 8 Jahre) gebaut: ca. 30 Min. je Würfel auf 160 g/m², die 15-mm-Laschen passten gut, wenig Hilfe nötig; mit 5-Jährigen noch nicht erprobt; die übrigen Beispiele und Vorlagen sind Platzhalter. Erfahrungsberichte und erste Beispielprojekte sind willkommen – siehe [Mitmachen](#mitmachen).
 
 ---
 
