@@ -1,6 +1,6 @@
 # Projekt A: «Der erste Würfel» (ab 5 Jahren)
 
-> **Stand 7. November 2026: digital erzeugt und einmal mit Kindern gebaut.** Die Dateien sind headless mit Blender, Paper Model und Inkscape entstanden. Beide Varianten wurden in [Durchlauf 1](#durchlauf-1) von Kindern (6 und 8 Jahre) gebaut, ca. 30 Min. auf 160 g/m²; Beobachtungen zu den Laschen und das Foto fehlen noch (Roadmap).
+> **Stand 7. November 2026: digital erzeugt und einmal mit Kindern gebaut.** Die Dateien sind headless mit Blender, Paper Model und Inkscape entstanden. Beide Varianten wurden in [Durchlauf 1](#durchlauf-1) von Kindern (6 und 8 Jahre) gebaut, ca. 30 Min. auf 160 g/m², Laschen passten gut, wenig Hilfe nötig; das Foto fehlt noch (Roadmap).
 
 <p align="center">
   <img src="wuerfel-final-preview.png" alt="Vorschau des Würfel-Bastelbogens: Kreuznetz mit sechs farbigen Flächen 1 bis 6, grauen Klebelaschen mit Tropfen und Legende unten rechts" width="380">
@@ -73,8 +73,8 @@ Erster realer Bau, vor dem 7. November 2026, mit zwei Kindern (6 und 8 Jahre). B
 | Kantenlänge am Papier | nicht erfasst (Sollwert 55 mm) |
 | Bastelzeit | ca. 30 Min. je Würfel; beide Kinder haben gleichzeitig gebaut, jedes Kind einen Würfel |
 | Alter der Kinder | 6 und 8 Jahre; welches Kind welche Variante gebaut hat, ist nicht erfasst |
-| Hilfe durch Erwachsene | nicht erfasst |
-| Laschen (Grösse, Anstossen im Inneren) | nicht erfasst |
+| Hilfe durch Erwachsene | wenig |
+| Laschen (15 mm) | passten gut; Probleme im Würfelinneren nicht gemeldet |
 | Klebstoff | nicht erfasst |
 | Ziffern oder Augen besser | nicht erfasst |
 
@@ -82,10 +82,10 @@ Was das für die Angaben im Haupt-README heisst:
 
 - **Bastelzeit:** Geschätzt waren 20 Min., gebraucht wurden ca. 30 Min. Im Haupt-README auf «ca. 30 Min.» korrigiert. Die 30 Min. gelten je Würfel (gleichzeitig gebaut, jedes Kind einen), gerundet, für 6- und 8-Jährige zusammen; ein Unterschied zwischen den beiden ist nicht erfasst. Wie lange 5-Jährige brauchen, ist offen.
 - **Papier 160 g/m²:** hat funktioniert, bestätigt. 200 g/m² ist nicht erprobt.
-- **Laschen 15 mm für 5–6 Jahre:** nicht widerlegt, aber nicht belegt. Ein 6-jähriges Kind war beteiligt, Beobachtungen zu den Laschen und zur Hilfe durch Erwachsene fehlen, ein 5-jähriges Kind war nicht dabei. Bleibt Heuristik.
+- **Laschen 15 mm für 5–6 Jahre:** für 6 Jahre bestätigt (passten gut, wenig Hilfe nötig), ebenso für 8 Jahre. Für 5 Jahre nicht geprüft, dort bleibt es Heuristik.
 
 ## Offene Punkte
 
-- Durchlauf 1 vervollständigen oder Durchlauf 2 protokollieren: Laschen, Hilfe durch Erwachsene, Kantenlänge, Foto (ohne erkennbare Gesichter); idealerweise mit einem 5-jährigen Kind
-- Prüfen, ob 15-mm-Laschen beim 55-mm-Würfel innen anstossen (Laschen benachbarter Kanten treffen sich im Würfelinneren)
+- Foto nachtragen (ohne erkennbare Gesichter)
+- Durchlauf 2 mit einem 5-jährigen Kind: Laschen, Hilfe, Bastelzeit
 - Mit Kindern erproben, welche Variante besser funktioniert: Ziffern oder Würfelaugen (Mengenbild, auf einen Blick erfassbar)

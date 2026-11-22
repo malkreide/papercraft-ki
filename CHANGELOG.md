@@ -16,6 +16,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - Würfel-Variante mit Würfelaugen statt Ziffern (`wuerfel-augen-final.*`, `scripts/make_wuerfel_final.py --motiv augen`)
 
 ### Changed
+- Würfel, Durchlauf 1: Laschen passten gut, wenig Hilfe nötig; 15-mm-Laschen damit für 6 (und 8) Jahre bestätigt, für 5 Jahre weiter offen; offener Punkt «Laschen stossen innen an» entfällt
 - Würfel, Durchlauf 1: präzisiert, dass die ca. 30 Min. je Würfel gelten (beide Kinder gleichzeitig, jedes einen Würfel)
 - Würfel, Durchlauf 1 ergänzt (Kinder 6 und 8 Jahre, ca. 30 Min., 160 g/m²): Bastelzeit für Projekt A im `README.md` von 20 auf ca. 30 Min. korrigiert; 160 g/m² bestätigt; 15-mm-Laschen für 5–6 Jahre bleiben Heuristik
 - Würfel-Beispiel erstmals mit Kindern gebaut (beide Varianten): «Durchlauf 1» in `examples/01-wuerfel-einstieg/README.md`, Status in `README.md` und `README.en.md` nachgeführt; Messwerte noch nicht erfasst, Heuristiken unverändert
@@ -24,7 +25,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - `docs/PAEDAGOGIK.md`: Linienstil der Faltlinien an README und WORKFLOW angeglichen (Bergfalte gestrichelt 5/3 statt Strich-Punkt, Talfalte gestrichelt 3/3)
 
 ### Geplant
-- Projekt A (Würfel): Laschen, Hilfe durch Erwachsene, Kantenlänge und Foto in `examples/01-wuerfel-einstieg/README.md` nachtragen; Durchlauf mit einem 5-jährigen Kind
+- Projekt A (Würfel): Foto in `examples/01-wuerfel-einstieg/README.md` nachtragen; Durchlauf mit einem 5-jährigen Kind
 - Weitere Inkscape-Vorlagen (Legende Zyklus 2, Symbole) in `templates/inkscape/`
 - Beurteilungsraster für Lehrpersonen (Zyklus 1 und 2)
 - MI-Kompetenzstufen gegen das offizielle Poster prüfen
