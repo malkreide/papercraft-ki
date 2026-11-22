@@ -71,7 +71,7 @@ Erster realer Bau, vor dem 7. November 2026, mit zwei Kindern (6 und 8 Jahre). B
 | Druckdatei und Skalierung | nicht erfasst |
 | Papier | 160 g/m² |
 | Kantenlänge am Papier | nicht erfasst (Sollwert 55 mm) |
-| Bastelzeit | ca. 30 Min. (eine Angabe für den Bau, nicht nach Kind oder Würfel aufgeteilt) |
+| Bastelzeit | ca. 30 Min. je Würfel; beide Kinder haben gleichzeitig gebaut, jedes Kind einen Würfel |
 | Alter der Kinder | 6 und 8 Jahre; welches Kind welche Variante gebaut hat, ist nicht erfasst |
 | Hilfe durch Erwachsene | nicht erfasst |
 | Laschen (Grösse, Anstossen im Inneren) | nicht erfasst |
@@ -80,12 +80,12 @@ Erster realer Bau, vor dem 7. November 2026, mit zwei Kindern (6 und 8 Jahre). B
 
 Was das für die Angaben im Haupt-README heisst:
 
-- **Bastelzeit:** Geschätzt waren 20 Min., gebraucht wurden ca. 30 Min. Im Haupt-README auf «ca. 30 Min.» korrigiert. Eine einzelne, gerundete Angabe für 6- und 8-Jährige; wie lange 5-Jährige brauchen, ist offen.
+- **Bastelzeit:** Geschätzt waren 20 Min., gebraucht wurden ca. 30 Min. Im Haupt-README auf «ca. 30 Min.» korrigiert. Die 30 Min. gelten je Würfel (gleichzeitig gebaut, jedes Kind einen), gerundet, für 6- und 8-Jährige zusammen; ein Unterschied zwischen den beiden ist nicht erfasst. Wie lange 5-Jährige brauchen, ist offen.
 - **Papier 160 g/m²:** hat funktioniert, bestätigt. 200 g/m² ist nicht erprobt.
 - **Laschen 15 mm für 5–6 Jahre:** nicht widerlegt, aber nicht belegt. Ein 6-jähriges Kind war beteiligt, Beobachtungen zu den Laschen und zur Hilfe durch Erwachsene fehlen, ein 5-jähriges Kind war nicht dabei. Bleibt Heuristik.
 
 ## Offene Punkte
 
-- Durchlauf 1 vervollständigen oder Durchlauf 2 protokollieren: Laschen, Hilfe durch Erwachsene, Kantenlänge, Foto (ohne erkennbare Gesichter); idealerweise mit einem 5-jährigen Kind und Zeit je Kind
+- Durchlauf 1 vervollständigen oder Durchlauf 2 protokollieren: Laschen, Hilfe durch Erwachsene, Kantenlänge, Foto (ohne erkennbare Gesichter); idealerweise mit einem 5-jährigen Kind
 - Prüfen, ob 15-mm-Laschen beim 55-mm-Würfel innen anstossen (Laschen benachbarter Kanten treffen sich im Würfelinneren)
 - Mit Kindern erproben, welche Variante besser funktioniert: Ziffern oder Würfelaugen (Mengenbild, auf einen Blick erfassbar)

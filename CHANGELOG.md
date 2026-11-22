@@ -16,6 +16,7 @@ die Versionierung [Semantic Versioning](https://semver.org/lang/de/).
 - Würfel-Variante mit Würfelaugen statt Ziffern (`wuerfel-augen-final.*`, `scripts/make_wuerfel_final.py --motiv augen`)
 
 ### Changed
+- Würfel, Durchlauf 1: präzisiert, dass die ca. 30 Min. je Würfel gelten (beide Kinder gleichzeitig, jedes einen Würfel)
 - Würfel, Durchlauf 1 ergänzt (Kinder 6 und 8 Jahre, ca. 30 Min., 160 g/m²): Bastelzeit für Projekt A im `README.md` von 20 auf ca. 30 Min. korrigiert; 160 g/m² bestätigt; 15-mm-Laschen für 5–6 Jahre bleiben Heuristik
 - Würfel-Beispiel erstmals mit Kindern gebaut (beide Varianten): «Durchlauf 1» in `examples/01-wuerfel-einstieg/README.md`, Status in `README.md` und `README.en.md` nachgeführt; Messwerte noch nicht erfasst, Heuristiken unverändert
 - `scripts/README.md`: Windows-Pfade nachgetragen (Blender 5.2, Python 3.13.8); Inkscape auf dem Windows-Rechner noch nicht gefunden
