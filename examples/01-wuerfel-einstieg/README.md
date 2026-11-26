@@ -76,16 +76,16 @@ Erster realer Bau, vor dem 7. November 2026, mit zwei Kindern (6 und 8 Jahre). B
 | Hilfe durch Erwachsene | wenig |
 | Laschen (15 mm) | passten gut; Probleme im Würfelinneren nicht gemeldet |
 | Klebstoff | nicht erfasst |
-| Ziffern oder Augen besser | nicht erfasst |
+| Ziffern oder Augen besser | beide funktionierten gleich gut |
 
 Was das für die Angaben im Haupt-README heisst:
 
 - **Bastelzeit:** Geschätzt waren 20 Min., gebraucht wurden ca. 30 Min. Im Haupt-README auf «ca. 30 Min.» korrigiert. Die 30 Min. gelten je Würfel (gleichzeitig gebaut, jedes Kind einen), gerundet, für 6- und 8-Jährige zusammen; ein Unterschied zwischen den beiden ist nicht erfasst. Wie lange 5-Jährige brauchen, ist offen.
 - **Papier 160 g/m²:** hat funktioniert, bestätigt. 200 g/m² ist nicht erprobt.
 - **Laschen 15 mm für 5–6 Jahre:** für 6 Jahre bestätigt (passten gut, wenig Hilfe nötig), ebenso für 8 Jahre. Für 5 Jahre nicht geprüft, dort bleibt es Heuristik.
+- **Ziffern oder Würfelaugen:** Beide Varianten funktionierten gleich gut; keine ist vorzuziehen. Ob das Mengenbild der Augen jüngeren Kindern, die Ziffern noch nicht sicher lesen, einen Vorteil bringt, ist mit 6 und 8 Jahren nicht geprüft.
 
 ## Offene Punkte
 
 - Foto nachtragen (ohne erkennbare Gesichter)
-- Durchlauf 2 mit einem 5-jährigen Kind: Laschen, Hilfe, Bastelzeit
-- Mit Kindern erproben, welche Variante besser funktioniert: Ziffern oder Würfelaugen (Mengenbild, auf einen Blick erfassbar)
+- Durchlauf 2 mit einem 5-jährigen Kind: Laschen, Hilfe, Bastelzeit, Ziffern oder Würfelaugen
